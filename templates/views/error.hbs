@@ -1,0 +1,39 @@
+<html lang='en'>
+
+    <head>
+        {{>headerlinks}}
+    </head>
+
+    <body>
+        {{>navbar}}
+        
+        <!-- main header -->
+        <div class='container-fluid main_header'>
+            <div class='row'>
+                <div class='col-md-6 col-12 mx-auto'>
+                    <div class='row'>
+                        <!-- right div -->
+                        <div
+                            class='col-md-6 col-12 main_header_left error about-img'
+                        >
+                            <figure>
+                                <img
+                                    src='images/error.jpg'
+                                    alt='Meet'
+                                    class='img-fluid '
+                                />
+                            </figure>
+                            <h1>{{errorMessage}}</h1>
+                            <a href='/'><button class='btn'>Home</button></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer code -->
+        {{>footer}}
+    </body>
+
+</html>
